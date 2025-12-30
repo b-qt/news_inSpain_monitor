@@ -1,0 +1,23 @@
+services:
+  orchestrator_mage:
+    image: mageai/mageai:latest
+    command: mage start spain_news_pipeline
+    env_file:.env
+    volumes:
+      - ./:/home/src # sync current to container location
+    ports:
+      - "6789:6789"
+  visualization_streamlit:
+    image: python:3.9-slim
+    working_dir: /app
+    volumnes:
+      -./:/app
+    command: streamlit run app.py --server.port 8501
+    ports:
+      - "8501:8501"
+volumes:
+
+  """
+  this docker--compose file runs mage and mounts a shared volume 
+  so both mage and the streamlit can access the same database endpoint
+  """

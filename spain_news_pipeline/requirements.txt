@@ -1,0 +1,7 @@
+mage-ai
+duckdb
+pandas
+feedparser
+requests
+streamlit
+plotly
