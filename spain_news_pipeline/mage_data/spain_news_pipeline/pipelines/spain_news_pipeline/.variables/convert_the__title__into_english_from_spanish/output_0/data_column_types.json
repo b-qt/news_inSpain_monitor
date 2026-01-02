@@ -1,1 +1,0 @@
-{"title": "str", "published_date": "datetime64[ns, UTC]", "summary": "str", "source_name": "str", "source_url": "str", "entry_date": "datetime64[ns]", "title_english": "str", "sentiment_label_en": "str", "sentiment_score_en": "float64", "sentiment_label_es": "str", "sentiment_score_es": "float64"}
