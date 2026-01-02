@@ -1,0 +1,17 @@
+# Environment varaibles
+.env
+
+#python
+**/__pycache__/
+__pycache__/
+*.py[cod]
+
+# Data & DBs
+data/
+*.duckdb
+*.db
+
+# Mage metadata
+mage_data/
+.mage_varaibles.json
+

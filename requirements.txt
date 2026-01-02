@@ -1,0 +1,11 @@
+mage-ai
+duckdb
+pandas
+feedparser
+requests
+streamlit
+plotly
+transformers
+sacremoses
+sentencepiece
+pysentimiento
